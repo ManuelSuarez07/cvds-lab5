@@ -39,14 +39,15 @@
 
 ### Se deberá realizar la solicitud GET, introduciendo el comando:
 
-## $ GET /html HTTP/1.0
+## $ GET /html HTTP/1.1
+## Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
+![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/imagen_2024-02-25_135738115.png)
 
 ### Seleccione el contenido HTMLde la respuesta y copielo al cortapapeles CTRL-SHIFT-C. 
 ### Ejecute el comando wc(recuento de palabras) para contar palabras con la opción -c para contar el número de caracteres:
 ## $ wc -c 
-![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/imagen_2024-02-25_135738115.png)
+![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/total%20palabras.png)
 
-## Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
-![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/imagen_2024-02-25_135738115.png)
+
 ## ¿Cuáles son las diferencias con los diferentes parámetros?
 
