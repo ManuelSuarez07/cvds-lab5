@@ -70,3 +70,5 @@
 ## curl www.httpbin.org -i
 ![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/Part%20I/curl%20-i.png)
 ## ¿Cuáles son las diferencias con los diferentes parámetros?
+* -v suele activar el modo "verboso" o detallado, proporcionando una salida más informativa en general.
+* -i se usa para incluir ciertos elementos específicos (como encabezados de respuesta HTTP) en la salida.
