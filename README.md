@@ -47,7 +47,17 @@
 ### Ejecute el comando wc(recuento de palabras) para contar palabras con la opción -c para contar el número de caracteres:
 ## $ wc -c 
 ![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/total%20palabras.png)
+## ¿Cuál esla diferencia entre los verbos GET y POST?
+* GET: El método GET lleva una representación de un recurso específico que se encuentran almacenados en un servidor al usuario. Las peticiones que usan el método GET sólo deben recuperar datos.
+* POST: El método POST se utiliza para enviar una entidad a un recurso en específico, provocando a menudo un cambio en el estado o efectos secundarios en el servidor.
+* Diferencias: El método GET lleva los datos usando la URL de forma visible, el método POST los envía de forma que no podemos verlos (en un segundo plano u "ocultos" al usuario)
 
-
+## ¿Qué otros tipos de peticiones existen?
+* PUT: Envía datos al servidor para ser almacenados en un recurso específico. Se utiliza para actualizar o crear un recurso en el servidor.
+* DELETE: Solicita eliminar un recurso específico en el servidor.
+* PATCH: Se utiliza para aplicar modificaciones parciales a un recurso.
+* HEAD: Similar a GET, pero solicita solo los encabezados de respuesta, sin el cuerpo de la respuesta.
+* OPTIONS: Solicita información sobre las opciones de comunicación disponibles para el recurso objetivo, como los métodos HTTP admitidos por el servidor.
+* TRACE: Utilizado principalmente para la depuración, solicita al servidor que devuelva un mensaje de respuesta que incluya los encabezados de solicitud recibidos.
+  
 ## ¿Cuáles son las diferencias con los diferentes parámetros?
-
