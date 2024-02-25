@@ -65,5 +65,8 @@
 ### El objetivo de curl es transferir datos, sin interacción del usuario, hacia o desde un servidor.
 ### Utilice ahora el parámetro -v:
 ## curl www.httpbin.org -v
+![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/curl.png)
+### Utilice ahora el parámetro -i:
+## curl www.httpbin.org -i
 
 ## ¿Cuáles son las diferencias con los diferentes parámetros?
