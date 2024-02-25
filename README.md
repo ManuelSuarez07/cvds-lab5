@@ -32,6 +32,19 @@
 * 400-499: Errores del cliente
 * 500-599: Errores del servidor
 
+### Solicitando el recurso html:
+### Ahora, solicita el recurso /html. (GET), Ejecutar el comandotelnet HOST PORT
+
+## $ telnet www.httpbin.org 80
+
+### Se deberá realizar la solicitud GET, introduciendo el comando:
+
+## $ GET /html HTTP/1.0
+
+### Seleccione el contenido HTMLde la respuesta y copielo al cortapapeles CTRL-SHIFT-C. 
+### Ejecute el comando wc(recuento de palabras) para contar palabras con la opción -c para contar el número de caracteres:
+## $ wc -c 
+![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/imagen_2024-02-25_135738115.png)
 
 ## Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
 ![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/imagen_2024-02-25_135738115.png)
