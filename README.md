@@ -34,6 +34,6 @@
 
 
 ## Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
-![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/raw/main/imagen_2024-02-25_134356538.png)
+![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/imagen_2024-02-25_135738115.png)
 ## ¿Cuáles son las diferencias con los diferentes parámetros?
 
