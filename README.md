@@ -33,6 +33,7 @@
 * 500-599: Errores del servidor
 
 
-
 ## Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
+![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/raw/main/imagen_2024-02-25_134356538.png)
 ## ¿Cuáles son las diferencias con los diferentes parámetros?
+
