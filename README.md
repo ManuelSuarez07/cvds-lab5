@@ -59,5 +59,11 @@
 * HEAD: Similar a GET, pero solicita solo los encabezados de respuesta, sin el cuerpo de la respuesta.
 * OPTIONS: Solicita información sobre las opciones de comunicación disponibles para el recurso objetivo, como los métodos HTTP admitidos por el servidor.
 * TRACE: Utilizado principalmente para la depuración, solicita al servidor que devuelva un mensaje de respuesta que incluya los encabezados de solicitud recibidos.
-  
+
+### En la práctica no se utiliza telnetpara hacer peticiones a sitios web sino el comando curlcon ayuda de la línea de comandos:
+## curl www.httpbin.org
+### El objetivo de curl es transferir datos, sin interacción del usuario, hacia o desde un servidor.
+### Utilice ahora el parámetro -v:
+## curl www.httpbin.org -v
+
 ## ¿Cuáles son las diferencias con los diferentes parámetros?
