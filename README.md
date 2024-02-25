@@ -46,7 +46,7 @@
 ### Seleccione el contenido HTMLde la respuesta y copielo al cortapapeles CTRL-SHIFT-C. 
 ### Ejecute el comando wc(recuento de palabras) para contar palabras con la opción -c para contar el número de caracteres:
 ## $ wc -c 
-![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/total%20palabras.png)
+![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/Part%20I/total%20palabras.png)
 ## ¿Cuál esla diferencia entre los verbos GET y POST?
 * GET: El método GET lleva una representación de un recurso específico que se encuentran almacenados en un servidor al usuario. Las peticiones que usan el método GET sólo deben recuperar datos.
 * POST: El método POST se utiliza para enviar una entidad a un recurso en específico, provocando a menudo un cambio en el estado o efectos secundarios en el servidor.
