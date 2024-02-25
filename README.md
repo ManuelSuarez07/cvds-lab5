@@ -68,5 +68,5 @@
 ![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/Part%20I/curl.png)
 ### Utilice ahora el parámetro -i:
 ## curl www.httpbin.org -i
-
+![Texto alternativo](https://github.com/ManuelSuarez07/cvds-lab5/blob/main/Part%20I/curl%20-i.png)
 ## ¿Cuáles son las diferencias con los diferentes parámetros?
