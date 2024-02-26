@@ -3,7 +3,7 @@
 * Manuel Suarez
 * Yeltzyn Sierra
 # Respuestas
-## PARTE I. - JUGANDO A SER UN CLIENTE HTTP
+# PARTE I. - JUGANDO A SER UN CLIENTE HTTP
 ### Abra una terminal Linux o consola de comandos Windows.
 ### Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
 ### Host: www.escuelaing.edu.co
@@ -72,3 +72,40 @@
 ## ¿Cuáles son las diferencias con los diferentes parámetros?
 * -v suele activar el modo "verboso" o detallado, proporcionando una salida más informativa en general.
 * -i se usa para incluir ciertos elementos específicos (como encabezados de respuesta HTTP) en la salida.
+
+# Part II
+## ¿Por qué MVC obtiene ese nombre?
+* Este nombre se debe a que sigue una especie de estructura llamada Modelo-Vista-Controlador (MVC), que es como el esqueleto de cómo se organiza la aplicación.
+* El "Modelo" es como el depósito donde guardamos todos los datos importantes que la aplicación necesita. Puede ser uno o muchos datos diferentes.
+* El "Controlador" es como el cerebro de la operación. Contiene todas las instrucciones y decisiones sobre cómo la aplicación debe funcionar. Es como el director de orquesta. Y la "Vista" es lo que tus ojos ven en la pantalla. Es como el diseño o el aspecto visual de la aplicación. Utilizamos diferentes herramientas para crearlo, pero básicamente es cómo se muestra la información al usuario. 
+
+## ¿Cuáles son las ventajas de usar MVC?
+### Ventajas del Marco Spring MVC
+#### El Marco Spring MVC ofrece una serie de beneficios que lo convierten en una opción popular para el desarrollo de aplicaciones web. Algunas de sus ventajas más destacadas:
+1) Roles bien definidos: Spring MVC organiza claramente cada componente de una aplicación web, asignándole funciones específicas. Esto facilita la comprensión de la estructura y el flujo de la aplicación.
+2) Ligero: Utiliza un enfoque de contenedor de servlets liviano, lo que significa que no sobrecarga la aplicación con recursos innecesarios. Esto contribuye a un rendimiento eficiente y a una implementación más rápida de la aplicación.
+3) Configuración robusta: Proporciona una configuración sólida y flexible para el desarrollo de aplicaciones. Esta configuración incluye referencias simples entre diferentes componentes, lo que simplifica el proceso de desarrollo y mantenimiento.
+4) Desarrollo ágil: Spring MVC facilita un proceso de desarrollo ágil y paralelo. Los desarrolladores pueden trabajar en diferentes partes de la aplicación simultáneamente, lo que acelera el tiempo de desarrollo y permite una respuesta más rápida a los cambios.
+5) Reutilización de código empresarial: Permite la reutilización de componentes y lógica de negocio existentes en lugar de crearlos desde cero. Esto reduce la duplicación de código y promueve las mejores prácticas de desarrollo.
+6) Facilidad de pruebas: Spring MVC fomenta la creación de clases JavaBeans que son fáciles de probar. Esto permite a los desarrolladores realizar pruebas unitarias y de integración de manera eficiente para garantizar el correcto funcionamiento de la aplicación.
+7) Flexibilidad en el mapeo: Proporciona anotaciones específicas que simplifican el mapeo de las solicitudes a los controladores correspondientes. Esto ofrece flexibilidad en el diseño de la aplicación y facilita la gestión de rutas y redirecciones. 
+
+## ¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?
+### Spring MVC:
+* src/main/java: Almacena los archivos fuente de Java específicos de Spring MVC, como controladores y servicios.
+* src/main/resources: Utilizado para recursos no Java relacionados con Spring MVC, como archivos de configuración y propiedades específicas de Spring.
+* src/main/webapp: Contiene los archivos web estáticos y los recursos web específicos de la capa de presentación de Spring MVC, como HTML, JSP, CSS y JavaScript.
+* src/test: Directorio destinado para las pruebas unitarias y de integración específicas de Spring MVC.
+### Maven:
+* src/main/java: Similar a Spring MVC, almacena los archivos fuente de Java, pero sin ninguna especificidad de un framework en particular.
+* src/main/resources: Se utiliza para recursos no Java, como archivos de configuración y propiedades, sin estar vinculado directamente a Spring MVC o cualquier otro framework.
+* src/main/webapp: Contiene archivos web estáticos y recursos web, pero sin la especificidad de un framework en particular.
+* src/test: Directorio para almacenar archivos de prueba, independiente de cualquier framework específico.
+### Java EE (Enterprise Edition):
+* src/main/java: Similar a Spring MVC y Maven, almacena los archivos fuente de Java sin ninguna especificidad de un framework.
+* src/main/resources: Utilizado para recursos no Java, como archivos de configuración y propiedades, sin estar vinculado a un framework específico.
+* WebContent (o src/main/webapp): Contiene archivos web estáticos y recursos web, similar a Spring MVC y Maven, pero sin la vinculación directa a un framework específico.
+* src/test: Directorio para almacenar archivos de prueba, independiente de cualquier framework específico.
+## ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
+* En este caso utilizamos @Controller la cual es una anotación que se utiliza para marcar una clase como controlador de Spring MVC. Indica que la clase define métodos de controlador que manejan las solicitudes HTTP.
+* También utilizamos @ModelAttribute: que en este caso lo utilizamos para vincular un atributo de modelo con un método de controlador, lo que permite compartir datos entre la vista y el controlador.
