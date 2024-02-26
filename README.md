@@ -109,3 +109,6 @@
 ## ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
 * En este caso utilizamos @Controller la cual es una anotación que se utiliza para marcar una clase como controlador de Spring MVC. Indica que la clase define métodos de controlador que manejan las solicitudes HTTP.
 * También utilizamos @ModelAttribute: que en este caso lo utilizamos para vincular un atributo de modelo con un método de controlador, lo que permite compartir datos entre la vista y el controlador.
+
+# Part III
+## El trabajo realizado de la parte 3 se encuentra en la rama con el nombre "PartIII"
