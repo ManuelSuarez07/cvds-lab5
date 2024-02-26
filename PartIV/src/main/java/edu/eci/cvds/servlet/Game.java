@@ -13,7 +13,7 @@ public class Game{
     private String estado;
     private ArrayList<Integer> historial;
 
-    public Adivinanza(){
+    public Game(){
         reiniciar();
     }
     public int getValor(){
